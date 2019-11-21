@@ -1,0 +1,128 @@
+.top-line {
+    background: #C8A35F;
+    height: 45px;
+}
+.header {
+    background: #2F343A;
+    height: 100px;
+}
+.main-bg {
+    height: 620px;
+    background: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)), url(../img/bg.jpg) no-repeat center / cover;
+}
+.main-block{
+    width: 920px;
+    height: 245px;
+    border: 1px solid #C8A35F;
+}
+.main-header {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sub-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.services {
+    background: #2F343A;
+}
+.devider {
+    width: 90px;
+    height: 6px;
+    background: #C8A35F;
+    margin-bottom: 40px;
+}
+.services{
+    height: 550px;
+    background: #393f47;
+    
+}
+.services-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.services-sub-title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn-primary {
+    background: #C8A35F!important;
+    padding: 10px 40px!important;
+    border-color:#C8A35F!important;
+    margin-top: 40px;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 163, 95, 0.4)!important;
+} 
+.all-services {
+    background: #2f343a;
+    height: 550px;
+}
+.services-card {
+    width: 276px;
+    height: 180px;
+    background: #393f47!important;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.services-card:hover {
+    background: #C8A35F!important;
+    color: #2f343a;
+    text-transform: uppercase;
+}
+.services-card svg {
+    fill:white;
+}
+.services-card:hover svg {
+    fill:#C8A35F!important;
+}
+.icon-circle {
+    background: #2f343a;
+    padding: 15px;
+    border-radius: 100%;
+}
+.about-company {
+    background: #2f343a;
+    height: 550px;
+}
+.card-about {
+    width: 200px;
+    height: 160px;
+    background:white;
+    color: #2f343a;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0.25px solid #C8A35F;
+    overflow: hidden;
+}
+.card-about-number {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.card-about-desc {
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+    height: 160px;
+    background: #C8A35F;    
+}
